@@ -7,28 +7,28 @@ public class Calculator_2 {
         int valueA=a;
         int valueB=b;
         int result = a+b;
-        System.out.println(result);
+        System.out.println("addition" +result);
 
     }
-    public void subtract(int a,int b){
-        int valueA=a;
-        int valueB=b;
-        int result = a-b;
-        System.out.println(result);
+    public void subtract(float a,float b){
+        float floatValue1=2.0f;
+        float floatValue2=4.0f;
+        float floatResult = floatValue1 - floatValue2;
+        System.out.println("subtraction" +floatResult);
 
     }
-    public void multiply(int a,int b){
-        int valueA=a;
-        int valueB=b;
-        int result = a*b;
-        System.out.println(result);
+    public void multiply(double a,double b){
+        double doubleValueA=2.0D;
+        double doubleValueB=5.0D;
+        double doubleResult = doubleValueA*doubleValueB;
+        System.out.println("Multiplcation: " +doubleResult);
 
     }
-    public void division(int a,int b){
-        int valueA=a;
-        int valueB=b;
-        int result = a%b;
-        System.out.println(result);
+    public void division(double a,double b){
+        double doubleValueA=8.0D;
+        double doubleValueB=2.0D;
+        double doubleResult = doubleValueA/doubleValueB;
+        System.out.println("Division: " +doubleResult);
 
     }
     public static void main(String[] args){
